@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo4.Client.BenhNhanController"
+            prefHeight="400.0" prefWidth="600.0">
+    <GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <Label text="HO_TEN :" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="txtHO_TEN" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Label text="NGAY_SINH :" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="txtNGAY_SINH" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="GIOI_TINH :" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField fx:id="txtGIOI_TINH" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label text="DIA_CHI :" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <TextField fx:id="txtDIA_CHI" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label text="MA_THE :" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <TextField fx:id="txtMA_THE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label text="MA_DKBD :" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+            <TextField fx:id="txtMA_DKBD" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="GT_THE_TU :" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+            <TextField fx:id="txtGT_THE_TU" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label text="GT_THE_DEN :" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+            <TextField fx:id="txtGT_THE_DEN" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button fx:id="btnNewButtonSaveBenhNhan" text="Save" GridPane.columnIndex="0" GridPane.rowIndex="8" GridPane.columnSpan="2" />
+        </children>
+    </GridPane>
+</AnchorPane>

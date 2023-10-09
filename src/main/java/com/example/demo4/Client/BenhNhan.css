@@ -1,0 +1,22 @@
+
+.label {
+    -fx-font-size: 10pt;
+    -fx-font-weight: normal;
+}
+
+.text-field {
+    -fx-font-size: 10pt;
+}
+
+.button {
+    -fx-font-size: 10pt;
+}
+
+.button-save {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+}
+
+.button-save:hover {
+    -fx-background-color: #45a049; /* Darker Green */
+}
